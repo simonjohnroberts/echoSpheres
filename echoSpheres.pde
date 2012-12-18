@@ -2,7 +2,7 @@
 import android.media.*;
 import apwidgets.*;
 
-//SET NUM OF CREATURES
+//SET NUM OF CREATURES 
 int numOfSpheres = 20;
 Creature[] creatureArr = new Creature[numOfSpheres];
 int objectCounter = 0; // IS THIS BEING USED?
@@ -65,7 +65,6 @@ void draw(){
     creatureArr[i].display();
     creatureArr[i].move();
   }
-  //onClick(mouseX,mouseY);
 }
 /* ------------------------ DRAW FUNCTION : END ------------------------ */
 
